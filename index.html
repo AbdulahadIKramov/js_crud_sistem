@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock">
+        <h1>00:00:00</h1>
+
+    </div>
+    <div class="main">
+        <div class="form_control">
+            <form class="form">
+                <input class="input_text" type="text">
+                <input class="input_submit" type="submit">
+            </form>
+            <div class="diagramm">
+                <h3 class="total_title" >Total blogs</h3>
+                <h2 class="tottal_counter">0</h2>
+                <h3 class="deleted_title">Deleted blogs</h3>
+                <h2 class="deleted_counter">0</h2>
+            </div>
+            <select class="theme">
+                <option value="">Theme</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+        <div class="content">
+        </div>
+    </div>
+
+    <div class="modal_warning">
+        <!-- <div class="modal_item danger">
+            <p>Biror nima yozing</p>
+        </div>
+        <div class="modal_item info">
+            <p>Qo'shildi</p>
+        </div> -->
+    </div>
+
+    <div class="modal_delete">
+        <h3>Are you sure?</h3>
+        <i class="fa-solid fa-trash-can"></i>
+        <div class="modal_btns">
+            <button class="delYes">Yes</button>
+            <button class="delNo">No</button>
+        </div>
+    </div>
+
+
+
+
+    <div id="root"></div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
